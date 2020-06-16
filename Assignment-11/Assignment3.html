@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+        <link rel="stylesheet" href="../bootstrap-4.5.0-dist/css/bootstrap.min.css"/>
+        <script src="../bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <script src="../bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <script src="../jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.min.css">
+        <script src="../bxslider-4-4.2.12/src/js/jquery.bxslider.js"></script>
+        <script type="text/javascript">
+             $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    autoControls: true,
+                    stopAutoOnClick: true,
+                    pager: true
+                });
+            }); 
+        </script>
+        <style>
+            #content{
+                background-color: brown;
+                height: 40px;
+            }
+            a{
+                color: white;
+                font-size: large;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md 1">
+                    <img src="../Assignment-11/aicte.png" height="100px"/>
+                </div>
+                <div class="col-md-1">
+                    <img src="../Assignment-11/category-1.png" height="100px"/>    
+                </div>
+                <div class="col-md-8" style="padding-left: 250px;">
+                    <img src="../Assignment-11/GITAM-logo.png" height="100px"/>
+                </div>
+                <div class="col-md-1">
+                    <img src="../Assignment-11/excellence.png" height="100px"/>     
+                </div>
+                <div class="col-md-1">
+                    <img src="../Assignment-11/naac-logo.png" height="100px"/>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="content">
+            <div class="row">
+                <div class="col-md-3">
+                    <span><i class="fa fa-sign-in fa-lg"></i></span> <a href="#">Login</a>
+                </div>
+                <div class="col-md-3">
+                    <span><i class="fa fa-user-circle fa-lg"></i></span> <a href="#">Registration</a>
+                </div>
+                <div class="col-md-3">
+                    <span><i class="fa fa-address-book fa-lg"></i></span> <a href="#">Contact Us</a>
+                </div>
+                <div class="col-md-3">
+                    <span><i class="fa fa-id-card-o fa-lg"></i></span> <a href="#">About Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="slider">
+                <div><img class="sp-image" src="../Assignment-11/hyderabad-campus-image.jpg" title="Img1" width="100%" alt="Background"/></div>
+                <div><img class="sp-image" src="../Assignment-11/visakhapatnam-campus-image.jpg" title="Img2" alt="Student" width="100%"/></div>
+                <div><img class="sp-image" src="../Assignment-11/bengaluru-campus-image.jpg" title="Img3" width="100%" alt="Students"/></div>
+                <div><img class="sp-image" src="../Assignment-11/gandhi.jpg" title="Img3" width="100%" alt="Students"/></div>
+            </div>
+        </div>
+    </body>
+</html>
